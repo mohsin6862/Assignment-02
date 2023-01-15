@@ -60,6 +60,7 @@ li{
   padding-top: 10px;
   font-size: 48px;
   color: #131313;
+  font-weight: 700;
   font-family: Work Sans;
 
 
@@ -68,6 +69,7 @@ li{
     text-align: center;
     padding-top: 15px;
     color: #727272;
+    font-family: Work Sans;
 
  }
  .btn1{
@@ -97,3 +99,64 @@ li{
  
  }
 
+
+ /* features section */
+
+ .features-container{
+    display: flex;
+    margin-top: 50px;
+
+ }
+ .features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    padding-left: 20px;
+ }
+ .features-images>img{
+    width: 342px;
+    height: 342px;
+
+ }
+ .features-info{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    left: 30px;
+
+ }
+ .features-info-title{
+    color: #131313;
+    font-family: Work Sans;
+    text-align: left;
+    font-size: 36px;
+    
+    
+ }
+ .features-info-description{
+    text-align: left;
+    padding-top: 25px;
+    color: #727272;
+    font-family: Work Sans;
+
+ }
+ .btn2{
+    position: relative;
+   left: 50px;
+   top: 20px;
+   width: 150px;
+   height: 50px;
+   color: aliceblue;
+   background-color: coral;
+   border: 1px solid coral;
+   border-radius: 5px;
+
+   
+ }
+ .btn2:hover{
+    background-color:rgb(28, 54, 7);
+    border: 1px solid rgb(15, 58, 17);
+    
+}
