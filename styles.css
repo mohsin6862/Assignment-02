@@ -304,9 +304,9 @@ padding-top: 140px;
 
 }
 .fact-box:hover{
-    transform: rotate(60deg);
+    transform: rotate(360deg);
 
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
     background-color: aqua;
 }
 .facts-title{
