@@ -112,7 +112,7 @@ li{
     grid-template-columns: repeat(2, 1fr);
     row-gap: 24px;
     column-gap: 24px;
-    padding-left: 20px;
+    padding-left: 100px;
  }
  .features-images>img{
     width: 342px;
@@ -124,7 +124,7 @@ li{
     height: 300px;
     position: relative;
     top: 200px;
-    left: 30px;
+    left: 50px;
 
  }
  .features-info-title{
@@ -144,7 +144,7 @@ li{
  }
  .btn2{
     position: relative;
-   left: 50px;
+   left: 0px;
    top: 20px;
    width: 150px;
    height: 50px;
@@ -156,6 +156,98 @@ li{
    
  }
  .btn2:hover{
+    background-color:rgb(28, 54, 7);
+    border: 1px solid rgb(15, 58, 17);
+    
+}
+
+
+/* second fetures styles */
+
+.second-features-container{
+    display: flex;
+    
+
+}
+.second-features-info{
+padding-left: 100px;
+padding-top: 50px;
+}
+.main-info{
+    width: 400px;
+    height: 200px;
+    
+    padding-top: 10px;
+   
+
+}
+.main-info-title{
+    color: #131313;
+    font-family: Work Sans;
+    text-align: left;
+    font-size: 30px;
+
+}
+.main-info-description{
+    text-align: left;
+    padding-top: 25px;
+    color: #727272;
+    font-family: Work Sans;
+
+}
+.sub-info{
+    width: 350px;
+    height: 120px;
+    padding-top: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.sub-info-title{
+   
+    color: #131313;
+    font-family: Work Sans;
+    text-align: left;
+    font-size: 24px;
+
+}
+.sub-info-description{
+    text-align: left;
+   
+    color: #727272;
+    font-family: Work Sans;
+    font-weight: 400px;
+
+}
+.sub-info:hover{
+    background-color: antiquewhite;
+    border: 1px solid greenyellow;
+}
+
+.second-fetures-images>img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 750px;
+    height: 970px;
+
+
+}
+.btn3{
+    position: relative;
+   left: 510px;
+   bottom: 960px;
+   width: 100px;
+   height: 50px;
+   color: aliceblue;
+   background-color: coral;
+   border: 1px solid coral;
+   border-radius: 5px;
+
+   
+ }
+ .btn3:hover{
     background-color:rgb(28, 54, 7);
     border: 1px solid rgb(15, 58, 17);
     
